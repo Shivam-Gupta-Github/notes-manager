@@ -18,7 +18,7 @@ function Main() {
   }, []);
 
   return (
-    <div>
+    <div className="main">
       <Search />
       <div className="items shimmer-wrapper">
         {filteredItems.length === 0 ? (

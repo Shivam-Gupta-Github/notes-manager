@@ -2,14 +2,14 @@ import React from "react";
 
 function Search({ itemList }) {
   return (
-    <div>
+    <div className="search-container">
       <input
-        className="search"
+        className="search-input"
         type="text"
         name="search"
         placeholder="Search File"
       />
-      <button>Search </button>
+      <button className="search-button">Search </button>
     </div>
   );
 }
